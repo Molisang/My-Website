@@ -173,11 +173,13 @@ header a:hover{
 }
 
 #boxes .box img{
-	width: 50%;
+	width: 48%;
+	height: auto;
 }
 
 #boxes .box img:hover{
-	width: 53%;
+/*	width: 50%;*/
+opacity: 0.85;
 }
 
 /*Sidebar*/
