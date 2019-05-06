@@ -96,6 +96,7 @@ header nav{
 header .highlight, header .current a{
 	color: #e8491d;
 	font-weight: bold;
+	transition: all 0.4s ease;
 }
 
 header a:hover{
@@ -147,17 +148,6 @@ header a:hover{
 	border-radius: 505px;
 }
 
-#newsletter form{
-	float: right;
-	margin-top: 15px;
-}
-
-#newsletter input[type="email"]{
-	padding: 4px;
-	height: 25px;
-	width: 250px;
-}
-
 
 /*Boxes*/
 #boxes{
@@ -175,6 +165,7 @@ header a:hover{
 #boxes .box img{
 	width: 48%;
 	height: auto;
+	transition: all 0.4s ease;
 }
 
 #boxes .box img:hover{
@@ -189,34 +180,30 @@ aside#sidebar{
 	margin-top: 10px;
 }
 
-aside#sidebar .quote input, aside#sidebar .quote textarea{
-	width: 90%;
-	padding: 5px;
-}
 
 
 /*main-col*/
-article#main-col2{
+#main-col2{
 	float: left;
 	width: 65%;
 }
 
-article#main-col{
+#main-col{
 	float: none;
 	text-align: center;
 	width: 100%;
 }
 
-article#main-col h1{
+#main-col h1{
 	font-size: 25px;
 }
 
-article#main-col .page-title{
+#main-col .page-title{
 	color: #e8491d;
 	font-weight: bold;
 }
 
-article#main-col .category{
+#main-col .category{
 	font-weight: bold;
 }
 
