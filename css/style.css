@@ -217,6 +217,9 @@ aside#sidebar{
 	font-weight: bold;
 }
 
+#main-col video{
+	width: 50%;
+}
 
 /*Gallery*/
 ul#gallery li{
