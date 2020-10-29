@@ -199,7 +199,7 @@ aside#sidebar{
 #menu .nav h3 {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: var(--primary-color);
   display: block;
 }
@@ -224,6 +224,37 @@ aside#sidebar{
   font-weight: bold;
 }
 
+/*Menu2*/
+#menu2{
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+
+#menu2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#menu2 li {
+  display: inline;
+}
+
+#menu2 li a {
+  font-size: 1.0rem;
+  padding: 0.3rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  opacity: 0.7;
+}
+
+#menu2 ul a:click {
+  color: var(--secondary-color);
+  font-weight: bold;
+  opacity: 100%;
+}
 
 /*Gallery*/
 ul#gallery li{
@@ -239,18 +270,13 @@ ul#gallery li iframe, ul#gallery li video{
 	width: 80%;
 	height: 500px;
 	padding: 10px;
-	display: none;
 }
 
 ul#gallery li img{
 	width: 80%;
 	padding: 10px;
-	display: none;
 }
 
-ul#gallery li .links{
-	display: none;
-}
 
 
 
@@ -283,7 +309,13 @@ footer{
 		margin-top: 20px;
 	}
 
+	#menu2{
+		display: block;
+	}
 
+	#menu{
+		display: none;
+	}
 	
 
 }
