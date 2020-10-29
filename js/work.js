@@ -108,7 +108,7 @@ $(document).ready(function(){
     $("#five").fadeIn(1000);
   });
 
-   $("#All").click(function(){
+   $("#All2").click(function(){
     $("#one").fadeIn(1000);
     $("#two").fadeIn(1000);
     $("#three").fadeIn(1000);
