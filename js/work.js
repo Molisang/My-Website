@@ -49,8 +49,8 @@ $(document).ready(function(){
 	$("#four").fadeOut(1000);
 	$("#one").fadeOut(1000);
   });
-	
-	   $("#CD2").click(function(){
+
+   $("#CD2").click(function(){
 	$("#one").fadeIn(1000);
 	$("#two").fadeOut(1000);
 	$("#two-two").fadeOut(1000);
@@ -101,15 +101,19 @@ $(document).ready(function(){
   });
 
    $("#All").click(function(){
-    $("video").fadeIn(1000);
-    $("img").fadeIn(1000);
-    $("iframe").fadeIn(1000);
+    $("#one").fadeIn(1000);
+    $("#two").fadeIn(1000);
+    $("#three").fadeIn(1000);
+    $("#four").fadeIn(1000);
+    $("#five").fadeIn(1000);
   });
 
-   $("#All2").click(function(){
-    $("video").fadeIn(1000);
-    $("img").fadeIn(1000);
-    $("iframe").fadeIn(1000);
+   $("#All").click(function(){
+    $("#one").fadeIn(1000);
+    $("#two").fadeIn(1000);
+    $("#three").fadeIn(1000);
+    $("#four").fadeIn(1000);
+    $("#five").fadeIn(1000);
   });
 
 });
