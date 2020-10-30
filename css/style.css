@@ -179,6 +179,19 @@ aside#sidebar{
 	margin-bottom: 4rem;
 }
 
+.experience .category{
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.experience .category+p{
+	font-size: 1.0rem;
+	font-style: italic;
+}
+
+li p:last-child {
+	font-size: 1.8rem;
+}
 
 #main-col{
 	font-weight: bold;
