@@ -4,6 +4,7 @@ $(document).ready(function(){
 	$("#one").fadeIn(1000);
 	$("#two").fadeOut(1000);
 	$("#two-two").fadeOut(1000);
+	$("#two-three").fadeOut(1000);
 	$("#three").fadeOut(1000);
 	$("#three-two").fadeOut(1000);
 	$("#four").fadeOut(1000);
@@ -13,6 +14,7 @@ $(document).ready(function(){
   $("#GD").click(function(){
 	$("#two").fadeIn(1000);
 	$("#two-two").fadeIn(1000);
+	$("#two-three").fadeIn(1000);
 	$("#one").fadeOut(1000);
 	$("#three").fadeOut(1000);
 	$("#three-two").fadeOut(1000);
@@ -23,6 +25,7 @@ $(document).ready(function(){
    $("#UIX").click(function(){
 	$("#three").fadeIn(1000);
 	$("#three-two").fadeIn(1000);
+	$("#two-three").fadeIn(1000);
 	$("#two").fadeOut(1000);
 	$("#two-two").fadeOut(1000);
 	$("#one").fadeOut(1000);
@@ -34,6 +37,7 @@ $(document).ready(function(){
 	$("#four").fadeIn(1000);
 	$("#two").fadeOut(1000);
 	$("#two-two").fadeOut(1000);
+	$("#two-three").fadeOut(1000);
 	$("#three").fadeOut(1000);
 	$("#three-two").fadeOut(1000);
 	$("#one").fadeOut(1000);
@@ -44,6 +48,7 @@ $(document).ready(function(){
 	$("#five").fadeIn(1000);
 	$("#two").fadeOut(1000);
 	$("#two-two").fadeOut(1000);
+	$("#two-three").fadeOut(1000);
 	$("#three").fadeOut(1000);
 	$("#three-two").fadeOut(1000);
 	$("#four").fadeOut(1000);
@@ -54,6 +59,7 @@ $(document).ready(function(){
 	$("#one").fadeIn(1000);
 	$("#two").fadeOut(1000);
 	$("#two-two").fadeOut(1000);
+	$("#two-three").fadeOut(1000);
 	$("#three").fadeOut(1000);
 	$("#three-two").fadeOut(1000);
 	$("#four").fadeOut(1000);
@@ -63,6 +69,7 @@ $(document).ready(function(){
   $("#GD2").click(function(){
 	$("#two").fadeIn(1000);
 	$("#two-two").fadeIn(1000);
+	$("#two-three").fadeIn(1000);
 	$("#one").fadeOut(1000);
 	$("#three").fadeOut(1000);
 	$("#three-two").fadeOut(1000);
@@ -73,6 +80,7 @@ $(document).ready(function(){
    $("#UIX2").click(function(){
 	$("#three").fadeIn(1000);
 	$("#three-two").fadeIn(1000);
+	$("#two-three").fadeIn(1000);
 	$("#two").fadeOut(1000);
 	$("#two-two").fadeOut(1000);
 	$("#one").fadeOut(1000);
@@ -84,6 +92,7 @@ $(document).ready(function(){
 	$("#four").fadeIn(1000);
 	$("#two").fadeOut(1000);
 	$("#two-two").fadeOut(1000);
+	$("#two-three").fadeOut(1000);
 	$("#three").fadeOut(1000);
 	$("#three-two").fadeOut(1000);
 	$("#one").fadeOut(1000);
@@ -94,6 +103,7 @@ $(document).ready(function(){
 	$("#five").fadeIn(1000);
 	$("#two").fadeOut(1000);
 	$("#two-two").fadeOut(1000);
+	$("#two-three").fadeOut(1000);
 	$("#three").fadeOut(1000);
 	$("#three-two").fadeOut(1000);
 	$("#four").fadeOut(1000);
